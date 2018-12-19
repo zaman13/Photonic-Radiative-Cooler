@@ -75,6 +75,9 @@ for i = 1:8
     subplot(2,4,i),plot(lambda_set*1e6,real(M_mat(:,i)),'r')
     hold on;
     plot(lambda_set*1e6,-imag(M_mat(:,i)))
+    xlabel('\lambda (\mum)');
+    ylabel('Refractive index');
+    legend('n','k');
 end
 % ======================================================================>>>
 
@@ -187,7 +190,7 @@ ylabel('Wavelength, \lambda (\mum)');
 
 % plot E along with E_desired by calling fitness function with fig flag ON
 fitness(M_mat,A_payload,1)
-
+legend('Optimized spectrum','Target spectrum');
 
 % Collection of good results obtained from various optimization algorithms
 % =========================================================================

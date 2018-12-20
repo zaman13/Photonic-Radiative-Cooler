@@ -27,8 +27,8 @@ M3 = csvread('Atmospheric data/AM0AM1_5.csv');    %  AM1.5 solar data in Wm^-2 n
 % Read Emissivity data
 
 
-% E = csvread('E_Taguchi_alt_1_E.csv');
-E = csvread('E_ref_alt_1_E.csv');   
+E = csvread('E_Taguchi_alt_1_E.csv');
+% E = csvread('E_ref_alt_1_E.csv');   
 
 % E = csvread('E_GA_1.csv');
 % E = eye(size(E));
@@ -54,7 +54,7 @@ E0 = E(:,1);   % E(lambda) at theta = 0;
 
 % Parameters
 kB = 1.38e-23;
-T0 = 300;
+T0 = 300;         % Ambient temperature
 h = 6.626e-34;
 c0 = 3e8;
 
@@ -138,5 +138,5 @@ if data_write == 'y'
 end
 % csvwrite('P_Taguchi.csv', Mwrite);
 
-
+% csvwrite('T290K.csv', [Pcool_1' Pcool_2' (Tset-T0)']);
 

@@ -11,27 +11,27 @@ R_TE = reflectance_TE(n0,nsubs,n_layers,d_layers,theta_in,lambda)
 
 The arguments are listed below. The geometry of the layers is also show.
 
-```
+```                                                            
 
-  n0 = refractive index of the input medium                 % -------------------------------- %
-  nsubs = refractive index of the substrate                 %                                  %
-  n_layers = refractive indices of the thin-film layers     %               Air                %  
-  theta_in = incident angle (in radians)                    %                                  %  
-  lambda = wavelength                                       % -------------------------------- % 
-                                                            %             Layer 1              %
-  R_TE = output = reflectivity                              % -------------------------------- %
-                                                            %             Layer 2              %
-                                                            % -------------------------------- %
-                                                            %                .                 %
-                                                            %                .                 %
-                                                            %                .                 %
-                                                            % -------------------------------- %
-                                                            %             Layer N              %  
-                                                            % -------------------------------- %
-                                                            %                                  %
-                                                            %            Substrate             %   
-                                                            %                                  %   
-                                                            % -------------------------------- %
+  n0 = refractive index of the input medium                 |--------------------------------|
+  nsubs = refractive index of the substrate                 |                                |
+  n_layers = refractive indices of the thin-film layers     |              Air               |  
+  theta_in = incident angle (in radians)                    |                                |  
+  lambda = wavelength                                       |--------------------------------| 
+                                                            |            Layer 1             |
+  R_TE = output = reflectivity                              |--------------------------------|
+                                                            |            Layer 2             |
+                                                            |--------------------------------|
+                                                            |               .                |
+                                                            |               .                |
+                                                            |               .                |
+                                                            |--------------------------------|
+                                                            |            Layer N             |  
+                                                            |--------------------------------|
+                                                            |                                |
+                                                            |           Substrate            |   
+                                                            |                                |   
+                                                            |--------------------------------|
 ```
 
 

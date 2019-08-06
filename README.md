@@ -36,6 +36,22 @@ The arguments are listed below. The geometry of the layers is also show.
 
 
 
+## Emissivity (or Reflectivity) Spectrum Calculations (spectrum_out.m file)
+
+Theis are Matlab function calculates the emissivity (emissivity = 1 - reflectivity) or a multilayer structure as a function of wavelength for a given incidence angle. reflectance_TE.m and reflectance_TM.m  functions are called within this function. It has the form:
+
+yout = spectrum_out(M_mat,A_payload,theta_in,min_d,max_d)
+
+The arguments are listed below. 
+```
+M_mat = Matrix containing material reflectivity data
+A_payload = Matrix containing layer materials and thickness data
+theta_in = Incidence angle
+min_d = minimum allowed thickness of a layer
+max_d = maximum allowed thickness of a layer
+```
+
+The min_d and max_d values are required as the layer thickness values in the input matrix A_payload is normalized with respect to those values. 
 
 ## Reference
 Please cite the following paper if you use this repository for your research.

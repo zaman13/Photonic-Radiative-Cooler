@@ -3,7 +3,7 @@ Data files and Matlab codes for analyzing a multilayer thin-film photonic radiat
 
 
 
-## Reflectance Calculation (reflectance_TE.m and reflectance_TM.m file)
+## Reflectivity Calculation (reflectance_TE.m and reflectance_TM.m file)
 
 These are Matlab functions to calculate the reflectance of a planar multilayer structure. The functions have the form: 
 
@@ -49,6 +49,7 @@ A_payload = Matrix containing layer materials and thickness data
 theta_in = Incidence angle
 min_d = minimum allowed thickness of a layer
 max_d = maximum allowed thickness of a layer
+yout = emissivity = 1 - reflectivity
 ```
 
 The min_d and max_d values are required as the layer thickness values in the input matrix A_payload is normalized with respect to those values. 

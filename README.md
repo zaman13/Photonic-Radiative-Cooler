@@ -54,6 +54,25 @@ yout = emissivity = 1 - reflectivity
 
 The min_d and max_d values are required as the layer thickness values in the input matrix A_payload is normalized with respect to those values. 
 
+
+
+## Linking to an optimization algoirthm (fitness.m file)
+
+For a given multilayer structure, the fitness.m file calculates the squared error between the desired emissivity and the emissivity of the structure. The function arguments are:
+
+```
+M_mat = Matrix containing material reflectivity data
+A_payload = Matrix containing layer materials and thickness data
+flag_fig = boolean variable indicating whether the output should be plotted or not
+yout = -(sum of squared error)
+```
+The desired emissivity is defined withing the fitness.m file. The structure emissivity is calculated by calling the reflectance_TE and reflectance_TM files. The errors for TE and TM excitations are summed in yout. 
+
+This function can be used as the cost function of an optimization algorithm.
+
+
+
+
 ## Reference
 Please cite the following paper if you use this repository for your research.
 

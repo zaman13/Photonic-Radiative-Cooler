@@ -56,7 +56,7 @@ The min_d and max_d values are required as the layer thickness values in the inp
 
 
 
-## Linking to an optimization algoirthm (fitness.m file)
+## Linking to an Optimization Algoirthm (fitness.m file)
 
 For a given multilayer structure, the fitness.m file calculates the squared error between the desired emissivity and the emissivity of the structure. The function arguments are:
 

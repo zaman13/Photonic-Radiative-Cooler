@@ -2,7 +2,7 @@
 <p float="left">
 <a href = "https://github.com/zaman13/Photonic-Radiative-Cooler"> <img src="https://img.shields.io/badge/Language-MATLAB-blue" alt="alt text"> </a>
 <a href = "https://github.com/zaman13/Photonic-Radiative-Cooler/blob/master/LICENSE"> <img src="https://img.shields.io/badge/license-MIT-green" alt="alt text"></a>
-<a href = "https://github.com/zaman13/Photonic-Radiative-Cooler"> <img src="https://img.shields.io/badge/version-1.0-red" alt="alt text"> </a>
+<a href = "https://github.com/zaman13/Photonic-Radiative-Cooler"> <img src="https://img.shields.io/badge/version-1.1-red" alt="alt text"> </a>
 </p>
 
 Data files and Matlab codes for analyzing a multilayer thin-film photonic radiative cooler. The repository contains codes for calculating the reflectance of a planar multilayer dielectric structure as a function of wavelength (for any arbitrary incident angles), plotting solar spectrm and atmospheric transmission, and evaluating the cooling power of a multilayer photonic structures. The refractive index data of several optical thin-film dielectric materials, solar spectrum data, atomospheric absorption data is also included in the repository. The source of the data files are cited in Ref. [1]. 
@@ -77,7 +77,18 @@ The desired emissivity is defined withing the fitness.m file. The structure emis
 This function can be used as the cost function of an optimization algorithm.
 
 
+## Sample output
+For an example structure, some of the output plots are shown below:
 
+<p float="left">
+<img src="https://github.com/zaman13/Photonic-Radiative-Cooler/blob/master/Output%20figures/ref_index.svg" alt="alt text" width="800">
+</p>
+
+<p float="left">
+<img src="https://github.com/zaman13/Photonic-Radiative-Cooler/blob/master/Output%20figures/Emissivity.svg" alt="alt text" width="400">
+<img src="https://github.com/zaman13/Photonic-Radiative-Cooler/blob/master/Output%20figures/Emissivity_contour.png" alt="alt text" width="400">
+
+</p>
 
 ## Reference
 Please cite the following paper if you use this repository for your research.

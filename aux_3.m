@@ -4,7 +4,7 @@
 
 
 % Notes: The refractive index of SiC used in the reference paper is
-% incorrect. It's not even close to data foudn from Larruquert.
+% incorrect. It's not even close to data found from Larruquert.
 
 % Notes on converting to a function:
 % Need to make sure that there are no file read/write calls in the

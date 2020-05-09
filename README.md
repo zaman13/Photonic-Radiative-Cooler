@@ -5,8 +5,12 @@
 <a href = "https://github.com/zaman13/Photonic-Radiative-Cooler"> <img src="https://img.shields.io/badge/version-1.1-red" alt="alt text"> </a>
 </p>
 
-Data files and Matlab codes for analyzing a multilayer thin-film photonic radiative cooler. The repository contains codes for calculating the reflectance of a planar multilayer dielectric structure as a function of wavelength (for any arbitrary incident angles), plotting solar spectrm and atmospheric transmission, and evaluating the cooling power of a multilayer photonic structures. The refractive index data of several optical thin-film dielectric materials, solar spectrum data, atomospheric absorption data is also included in the repository. The source of the data files are cited in Ref. [1]. 
 
+<p>
+<img align = "right" src="https://github.com/zaman13/Photonic-Radiative-Cooler/blob/master/Output%20figures/Emissivity_contour.png" alt="alt text" width="320">
+<img align = "right" src="https://github.com/zaman13/Photonic-Radiative-Cooler/blob/master/Output%20figures/Fig_structure.png" alt="alt text" width="240">  
+Data files and Matlab codes for analyzing a multilayer thin-film photonic radiative cooler. The repository contains codes for calculating the reflectance of a planar multilayer dielectric structure as a function of wavelength (for any arbitrary incident angles), plotting solar spectrm and atmospheric transmission, and evaluating the cooling power of a multilayer photonic structures. The refractive index data of several optical thin-film dielectric materials, solar spectrum data, atomospheric absorption data is also included in the repository. The source of the data files are cited in Ref. [1]. 
+</p>
 
 
 ## Reflectivity Calculation (reflectance_TE.m and reflectance_TM.m file)
